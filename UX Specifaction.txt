@@ -1,0 +1,42 @@
+User Management Screen
+
+Requirements
+
+1. Display a list of all user accounts in a table with columns for ID, User Name, Email, and Enabled (true/false).
+2. Allow administrators to toggle the visibility of disabled users using a "Hide Disabled User" checkbox.
+3. A "New User" section for adding new users.
+4. In the "New User" section, allow administrators to enter user details, including Username, Display Name, Phone, Email, and User Role (guest, admin, superadmin).
+5. Include a "Enabled" checkbox in the "New User" section to specify whether the new user should be enabled or disabled.
+6. Include a "Save User" button above the "New User" section to save the new user's information.
+7. Make sure the design works well on different screen sizes, for phones and computers.
+
+UI Components
+
+User Table
+- A table displaying user accounts with columns: ID, User Name, Email, and Enabled.
+- Each row should represent a user account and display their information.
+
+New User Section
+- Includes input fields for Username, Display Name, Phone, Email, and a selection box for User Role.
+- Provides a "Enabled" checkbox to specify the user's status.
+- A "Save User" button allows administrators to save the new user's information.
+
+Hide Disabled User Checkbox
+- A checkbox that allows administrators to toggle the visibility of disabled users in the user table.
+- When checked, disabled users should be hidden from the table.
+
+Page Behavior
+
+- Upon initial loading, the User Management screen should display the user table with all user accounts, including their ID, User Name, Email, and Enabled status.
+- Administrators can click the "Hide Disabled User" checkbox to filter out disabled users from the table.
+- Administrators can fill out the required fields in the "New User" section, check the "Enabled" checkbox, and click "Save User" to create a new user.
+- The table should update to include the new user's information immediately after saving.
+
+Mockup/Visual Guidance
+
+https://lists.office.com/Images/969df1bb-97b6-44ef-9108-dc18a5fd96c2/298428f6-6729-4501-a9de-dcaf554877fe/T3L0G2MKUPU8GQUY8YHP00Z9RB/c2f1cb7e-5022-433a-93a2-1ac0b6ec1015
+
+Notes
+- Make sure that the UI is intuitive and user-friendly.
+- Implement proper error handling and validation for user inputs.
+
